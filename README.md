@@ -1,1 +1,1 @@
-"# Reposit¢rio das atividades produzidas na disciplina de Construá∆o de Software" 
+# Reposit√≥rio das atividades produzidas na disciplina de Constru√ß√£o de Software
