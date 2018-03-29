@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1522103487 source:c:\users\win10\nuvem\construção de software\repogit\cs-2018\atividade\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1522280075 source:c:\users\win10\desktop\atividade\principal.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Validacoes.h"
+
+1522275033 source:c:\users\win10\desktop\atividade\validacoes.c
+	"Validacoes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1522254125 c:\users\win10\desktop\atividade\validacoes.h
+
