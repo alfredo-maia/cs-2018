@@ -1,0 +1,30 @@
+{
+  "name": "relogio-cli",
+  "version": "1.0.1",
+  "description": "Relógio (linha de comandos) para ilustrar uso de packages",
+  "main": "relogio.js",
+  "scripts": {
+    "test": "echo \"Não há testes...\" && exit 0",
+    "start": "node relogio.js",
+    "home": "open https://github.com/kyriosdata/js/tree/master/ambientacao/pacote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyriosdata/js.git"
+  },
+  "keywords": [
+    "relógio"
+  ],
+  "author": "Fábio Nogueira de Lucena <fabio@inf.ufg.br> (http://www.inf.ufg.br/~fabio)",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kyriosdata/js/issues"
+  },
+  "homepage": "https://github.com/kyriosdata/js#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cli-cursor": "^2.1.0",
+    "death": "^1.1.0",
+    "npm": "^6.0.0"
+  }
+}

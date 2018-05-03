@@ -1,0 +1,13 @@
+{
+  "name": "matematica",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-qunit": "^1.0.0"
+  },
+  "scripts": {
+    "test": "qunit"
+  },
+  "devDependencies": {
+    "qunit": "^2.6.0"
+  }
+}
