@@ -1,13 +1,13 @@
 /**
  * Algoritimo de dia da semana
- * O propósito e retornar o dia da semana a partir de determinada data de entrada
- * <p>Adicionalmente, a presente classe também ilustra o uso de
+ * O propÃ³sito e retornar o dia da semana a partir de determinada data de entrada
+ * <p>Adicionalmente, a presente classe tambï¿½m ilustra o uso de
  * <a href="http://usejsdoc.org/">JSDoc</a>.</p>
  *
  *
  * @type {module.DiaDaSemana}
  */
-class DiaDaSemana {
+ export class DiaDaSemana {
     
         /**
          * Retorna a dia da semana de uma data fornecida
@@ -44,6 +44,5 @@ class DiaDaSemana {
     
         
     };
-   
-    
+
     module.exports = DiaDaSemana;

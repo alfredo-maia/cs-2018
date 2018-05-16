@@ -1,5 +1,6 @@
-// Importando Dia da Semana
-const semana = require('DiaDaSemana');
+import DiaDaSemana from './DiaDaSemana.js';
+
+const semana = new DiaDaSemana();
 
 let argument1 = process.argv [ 2 ];
 let argument2 = process.argv [ 3 ];
