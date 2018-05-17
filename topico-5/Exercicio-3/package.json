@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "test": "qunit Semana.js",
+    "prepara-testes": "browserify semana.js -o semana.js -t [ babelify --presets [ env react ] ]",
+    "prepara-programa": "browserify programa.js -o programa-out.js -t [ babelify --presets [ env react ] ]",
+    "build": "babel *.js -d lib"
+  }

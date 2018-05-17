@@ -15,8 +15,6 @@ class DiaDaSemana {
          * @param {number} d Dia da data.
          * @param {number} m Mês da data.
          * @param {number} a Ano da data.
-         * 
-         * @see {@link Matematica#subtracao}
          *
          * @returns {number} Dia da semana.
          */

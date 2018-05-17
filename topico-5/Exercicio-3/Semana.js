@@ -1,4 +1,4 @@
-import { diaDaSemana } from "DiaDaSemana";
+import { diaDaSemana } from "./DiaDaSemana";
 
 const semana = new DiaDaSemana();
 
