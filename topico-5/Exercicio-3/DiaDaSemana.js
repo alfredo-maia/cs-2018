@@ -7,7 +7,7 @@
  *
  * @type {module.DiaDaSemana}
  */
- export class DiaDaSemana {
+class DiaDaSemana {
     
         /**
          * Retorna a dia da semana de uma data fornecida
@@ -21,9 +21,10 @@
          * @returns {number} Dia da semana.
          */
 
-        let s = 0;
+   
 
-        diaDaSemana(d, m, a) {
+        export diaDaSemana(d, m, a) {
+            let s = 0;
             if ( a <= 1 || a <= 31 )
             {
                 if( m === 1 || m === 2 )
@@ -45,4 +46,4 @@
         
     };
 
-    module.exports = DiaDaSemana;
+

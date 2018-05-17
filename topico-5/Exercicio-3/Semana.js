@@ -1,4 +1,4 @@
-import DiaDaSemana from './DiaDaSemana.js';
+import { diaDaSemana } from "DiaDaSemana";
 
 const semana = new DiaDaSemana();
 
