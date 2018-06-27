@@ -1,7 +1,7 @@
 /**
- * Armazena todas as classe do projeto
+ * Armazena todas as funções do projeto
  * 
- * Cada classe contém uma atividade dos requistos
+ * Cada função contém uma atividade dos requistos
  * 
  * @author Alfredo Souza Maia
  * @copyright Todos direitos reservados 
@@ -12,19 +12,8 @@
  *
  * @type {module.Fatorial}
  */
-export default class Fatorial {
-
-    /* global console, process,exports */
-
-
-
-    /** 
-     * @function Retorna o fatorial de um número
-     * @param {number} num - número inteiro de entrada
-     * @example Entre com o número 5
-     * @returns Retorna o valor do fatorial
-    */
-
+  //eslint exceptions for text in line
+    /* global, exports */
     function fat(num) {
     
     /**@type {number}*/
@@ -36,10 +25,7 @@ export default class Fatorial {
             f = f * i;
             i = i + 1;
         }
-
         /**@returns Retorno da função */
         return f;
-
 }
 
-}
